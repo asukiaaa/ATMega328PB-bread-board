@@ -1,5 +1,9 @@
 # ATmega328PB-bread-board
 
+![size](/docs/size.png)
+
+[schema](/docs/ATmega328PB-bread-board.pdf)
+
 ## License
 
 MIT
