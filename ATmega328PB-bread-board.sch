@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:VCC #PWR0101
+L ATmega328PB-bread-board-rescue:VCC-power #PWR0101
 U 1 1 5EEFD2BC
 P 4800 1850
 F 0 "#PWR0101" H 4800 1700 50  0001 C CNN
@@ -27,12 +27,12 @@ $EndComp
 Text Label 3800 2700 2    50   ~ 0
 aref
 $Comp
-L Device:C C1
+L ATmega328PB-bread-board-rescue:C-Device C1
 U 1 1 5EEFE1E4
 P 3950 2850
 F 0 "C1" H 4065 2896 50  0000 L CNN
 F 1 "0.1uf" H 4065 2805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3988 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3988 2700 50  0001 C CNN
 F 3 "~" H 3950 2850 50  0001 C CNN
 	1    3950 2850
 	1    0    0    -1  
@@ -41,7 +41,7 @@ Connection ~ 3950 2700
 Wire Wire Line
 	3950 2700 3800 2700
 $Comp
-L power:GND #PWR0102
+L ATmega328PB-bread-board-rescue:GND-power #PWR0102
 U 1 1 5EEFCEDC
 P 4800 5400
 F 0 "#PWR0102" H 4800 5150 50  0001 C CNN
@@ -52,7 +52,7 @@ F 3 "" H 4800 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0103
+L ATmega328PB-bread-board-rescue:GND-power #PWR0103
 U 1 1 5EEFF77C
 P 3950 3000
 F 0 "#PWR0103" H 3950 2750 50  0001 C CNN
@@ -117,12 +117,12 @@ pe2
 Text Label 4200 4700 2    50   ~ 0
 pe3
 $Comp
-L Device:C C2
+L ATmega328PB-bread-board-rescue:C-Device C2
 U 1 1 5EF038C7
 P 4400 2000
 F 0 "C2" H 4515 2046 50  0000 L CNN
 F 1 "0.1uf" H 4515 1955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 1850 50  0001 C CNN
 F 3 "~" H 4400 2000 50  0001 C CNN
 	1    4400 2000
 	1    0    0    -1  
@@ -130,7 +130,7 @@ $EndComp
 Wire Wire Line
 	4800 1850 4800 2150
 $Comp
-L power:GND #PWR0104
+L ATmega328PB-bread-board-rescue:GND-power #PWR0104
 U 1 1 5EF066FF
 P 4400 2150
 F 0 "#PWR0104" H 4400 1900 50  0001 C CNN
@@ -140,12 +140,12 @@ F 3 "" H 4400 2150 50  0001 C CNN
 	1    4400 2150
 	1    0    0    -1  
 $EndComp
-Text Label 6600 2950 0    50   ~ 0
+Text Label 7550 3000 0    50   ~ 0
 pd0
-Text Label 6600 3050 0    50   ~ 0
+Text Label 7550 2900 0    50   ~ 0
 pd1
 $Comp
-L Device:Jumper_NC_Small JP1
+L ATmega328PB-bread-board-rescue:Jumper_NC_Small-Device JP1
 U 1 1 5EF1D9B3
 P 4900 2150
 F 0 "JP1" H 4900 2362 50  0000 C CNN
@@ -165,138 +165,125 @@ Wire Wire Line
 Wire Wire Line
 	4900 2300 4900 2400
 $Comp
-L power:GND #PWR0105
+L ATmega328PB-bread-board-rescue:GND-power #PWR0105
 U 1 1 5EF20D84
-P 7550 4350
-F 0 "#PWR0105" H 7550 4100 50  0001 C CNN
-F 1 "GND" H 7555 4177 50  0000 C CNN
-F 2 "" H 7550 4350 50  0001 C CNN
-F 3 "" H 7550 4350 50  0001 C CNN
-	1    7550 4350
+P 8500 4300
+F 0 "#PWR0105" H 8500 4050 50  0001 C CNN
+F 1 "GND" H 8505 4127 50  0000 C CNN
+F 2 "" H 8500 4300 50  0001 C CNN
+F 3 "" H 8500 4300 50  0001 C CNN
+	1    8500 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x17 J1
+L ATmega328PB-bread-board-rescue:Conn_01x17-Connector_Generic J1
 U 1 1 5EF236D3
-P 6400 3650
-F 0 "J1" H 6318 4667 50  0000 C CNN
-F 1 "Conn_01x17" H 6318 4576 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical" H 6400 3650 50  0001 C CNN
-F 3 "~" H 6400 3650 50  0001 C CNN
-	1    6400 3650
+P 7350 3600
+F 0 "J1" H 7268 4617 50  0000 C CNN
+F 1 "Conn_01x17" H 7268 4526 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical" H 7350 3600 50  0001 C CNN
+F 3 "~" H 7350 3600 50  0001 C CNN
+	1    7350 3600
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x17 J2
+L ATmega328PB-bread-board-rescue:Conn_01x17-Connector_Generic J2
 U 1 1 5EF241A6
-P 7350 3550
-F 0 "J2" H 7268 4567 50  0000 C CNN
-F 1 "Conn_01x17" H 7268 4476 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical" H 7350 3550 50  0001 C CNN
-F 3 "~" H 7350 3550 50  0001 C CNN
-	1    7350 3550
+P 8300 3500
+F 0 "J2" H 8218 4517 50  0000 C CNN
+F 1 "Conn_01x17" H 8218 4426 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical" H 8300 3500 50  0001 C CNN
+F 3 "~" H 8300 3500 50  0001 C CNN
+	1    8300 3500
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
+L ATmega328PB-bread-board-rescue:GND-power #PWR0107
 U 1 1 5EF24D90
-P 6900 3250
-F 0 "#PWR0107" H 6900 3000 50  0001 C CNN
-F 1 "GND" H 6905 3077 50  0000 C CNN
-F 2 "" H 6900 3250 50  0001 C CNN
-F 3 "" H 6900 3250 50  0001 C CNN
-	1    6900 3250
+P 7850 3200
+F 0 "#PWR0107" H 7850 2950 50  0001 C CNN
+F 1 "GND" H 7855 3027 50  0000 C CNN
+F 2 "" H 7850 3200 50  0001 C CNN
+F 3 "" H 7850 3200 50  0001 C CNN
+	1    7850 3200
 	1    0    0    -1  
 $EndComp
-Text Label 7550 2850 0    50   ~ 0
+Text Label 8500 2700 0    50   ~ 0
 pb5
-Text Label 6600 4450 0    50   ~ 0
+Text Label 7550 4400 0    50   ~ 0
 pb4
-Text Label 6600 4350 0    50   ~ 0
+Text Label 7550 4300 0    50   ~ 0
 pb3
-Text Label 6600 4250 0    50   ~ 0
+Text Label 7550 4200 0    50   ~ 0
 pb2
-Text Label 6600 4150 0    50   ~ 0
+Text Label 7550 4100 0    50   ~ 0
 pb1
-Text Label 6600 4050 0    50   ~ 0
+Text Label 7550 4000 0    50   ~ 0
 pb0
-Text Label 6600 3950 0    50   ~ 0
+Text Label 7550 3900 0    50   ~ 0
 pd7
-Text Label 6600 3850 0    50   ~ 0
+Text Label 7550 3800 0    50   ~ 0
 pd6
-Text Label 6600 3750 0    50   ~ 0
+Text Label 7550 3700 0    50   ~ 0
 pd5
-Text Label 6600 3650 0    50   ~ 0
+Text Label 7550 3600 0    50   ~ 0
 pd4
-Text Label 6600 3550 0    50   ~ 0
+Text Label 7550 3500 0    50   ~ 0
 pd3
-Text Label 6600 3450 0    50   ~ 0
+Text Label 7550 3400 0    50   ~ 0
 pd2
-Text Label 7550 3050 0    50   ~ 0
+Text Label 8500 2900 0    50   ~ 0
 pc1
-Text Label 7550 2950 0    50   ~ 0
+Text Label 8500 2800 0    50   ~ 0
 pc0
-Text Label 7550 4150 0    50   ~ 0
+Text Label 8500 4100 0    50   ~ 0
 aref
-Text Label 7550 4050 0    50   ~ 0
+Text Label 8500 4000 0    50   ~ 0
 pe3
-Text Label 7550 3950 0    50   ~ 0
+Text Label 8500 3900 0    50   ~ 0
 pe2
-Text Label 7550 3850 0    50   ~ 0
+Text Label 8500 3800 0    50   ~ 0
 pe1
-Text Label 7550 3750 0    50   ~ 0
+Text Label 8500 3700 0    50   ~ 0
 pe0
-Text Label 6600 2850 0    50   ~ 0
-pc6
-Text Label 7550 3450 0    50   ~ 0
+Text Label 7550 2800 0    50   ~ 0
+DTR
+Text Label 8500 3300 0    50   ~ 0
 pc5
-Text Label 7550 3350 0    50   ~ 0
+Text Label 8500 3200 0    50   ~ 0
 pc4
-Text Label 7550 3250 0    50   ~ 0
+Text Label 8500 3100 0    50   ~ 0
 pc3
-Text Label 7550 3150 0    50   ~ 0
+Text Label 8500 3000 0    50   ~ 0
 pc2
-Text Label 7550 3650 0    50   ~ 0
+Text Label 8500 3500 0    50   ~ 0
 pb7
-Text Label 7550 3550 0    50   ~ 0
+Text Label 8500 3400 0    50   ~ 0
 pb6
 Wire Wire Line
-	6900 3250 6700 3250
+	7850 3200 7650 3200
 $Comp
-L power:VCC #PWR0108
+L ATmega328PB-bread-board-rescue:VCC-power #PWR0108
 U 1 1 5EF389BE
-P 6900 3150
-F 0 "#PWR0108" H 6900 3000 50  0001 C CNN
-F 1 "VCC" H 6915 3323 50  0000 C CNN
-F 2 "" H 6900 3150 50  0001 C CNN
-F 3 "" H 6900 3150 50  0001 C CNN
-	1    6900 3150
+P 7850 3100
+F 0 "#PWR0108" H 7850 2950 50  0001 C CNN
+F 1 "VCC" H 7865 3273 50  0000 C CNN
+F 2 "" H 7850 3100 50  0001 C CNN
+F 3 "" H 7850 3100 50  0001 C CNN
+	1    7850 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 3250 6700 3350
+	7650 3200 7650 3300
 Wire Wire Line
-	6700 3350 6600 3350
-Connection ~ 6700 3250
+	7650 3300 7550 3300
+Connection ~ 7650 3200
 Wire Wire Line
-	6700 3250 6600 3250
+	7650 3200 7550 3200
 Wire Wire Line
-	6900 3150 6600 3150
+	7850 3100 7550 3100
 $Comp
-L power:GND #PWR0109
-U 1 1 5EF4FA8E
-P 7850 2750
-F 0 "#PWR0109" H 7850 2500 50  0001 C CNN
-F 1 "GND" H 7855 2577 50  0000 C CNN
-F 2 "" H 7850 2750 50  0001 C CNN
-F 3 "" H 7850 2750 50  0001 C CNN
-	1    7850 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7850 2750 7550 2750
-$Comp
-L MCU_Microchip_ATmega:ATmega328PB-MU U1
+L ATmega328PB-bread-board-rescue:ATmega328PB-MU-MCU_Microchip_ATmega U1
 U 1 1 5EF5772F
 P 4800 3900
 F 0 "U1" H 4800 2311 50  0000 C CNN
@@ -306,7 +293,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf" H 4800 3900 
 	1    4800 3900
 	1    0    0    -1  
 $EndComp
-Text Label 7550 4250 0    50   ~ 0
+Text Label 8500 4200 0    50   ~ 0
 avcc
 Text Label 5000 2150 0    50   ~ 0
 avcc
@@ -315,4 +302,23 @@ Wire Wire Line
 Connection ~ 4800 1850
 Wire Wire Line
 	3950 2700 4200 2700
+$Comp
+L ATmega328PB-bread-board-rescue:C-Device C3
+U 1 1 604E4CAC
+P 5750 4200
+F 0 "C3" V 5850 4300 50  0000 L CNN
+F 1 "0.1uf" V 5650 4300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5788 4050 50  0001 C CNN
+F 3 "~" H 5750 4200 50  0001 C CNN
+	1    5750 4200
+	0    1    1    0   
+$EndComp
+Text Label 6100 4200 0    50   ~ 0
+DTR
+Wire Wire Line
+	6100 4200 5900 4200
+Wire Wire Line
+	5600 4200 5400 4200
+Text Label 8500 3600 0    50   ~ 0
+pc6
 $EndSCHEMATC

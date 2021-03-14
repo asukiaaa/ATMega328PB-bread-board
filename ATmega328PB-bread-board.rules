@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 337)
+    (start_pass_no 1097)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -66,7 +66,7 @@
     GND /aref VCC /pb4 /pb3 /pb2 /pb1 /pb0
     /pd7 /pd6 /pd5 /pd4 /pd3 /pd2 /pd1 /pd0
     /pb6 /pe3 /pe2 /pe1 /pe0 /pc6 /pb7 /pc5
-    /pc4 /pc3 /pc2 /pc1 /pc0 /pb5 /avcc
+    /pc4 /pc3 /pc2 /pc1 /pc0 /pb5 /avcc /DTR
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
