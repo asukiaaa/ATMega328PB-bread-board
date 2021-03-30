@@ -646,6 +646,7 @@
     )
   )
 
+  (gr_line (start 121.8 97.6) (end 123.1 97.6) (layer B.Mask) (width 0.3))
   (dimension 60 (width 0.15) (layer Dwgs.User)
     (gr_text "60.000 mm" (at 165.15 80 270) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
